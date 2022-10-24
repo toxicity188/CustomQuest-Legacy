@@ -1,0 +1,50 @@
+prefix: "&e&l[Quest] "
+
+prefix-condition: "&e&l└ "
+prefix-rewards: "&a&l└ "
+
+prefix-money: "&6Gold &f"
+prefix-exp: "&aEXP &f"
+suffix-money: "&6&lG"
+suffix-exp: ""
+suffix-complete: "&e&l 완료!"
+
+playergui-name: "진행중인 퀘스트 목록"
+playergui-surrender-fail: "취소불능 퀘스트 입니다."
+playergui-navigation-fail: "해당 퀘스트엔 특정한 좌표가 설정되어 있지 않습니다."
+
+navgui-name: "안내받을 좌표를 고르시오."
+navgui-prefix: "§6[!] §f"
+
+dialog-inventory-name: "<sender>과(와)의 대화"
+qna-inventory-name: "<sender>의 질문"
+dialog-cancel-death: "사망하셨으므로 대사 출력이 중단되었습니다."
+dialog-cancel-invclose: "예상치 못한 GUI 종료로 인해 대사 출력이 중단되었습니다."
+
+dialog-block-command: "대사 진행 도중 커멘드를 사용할 수 없습니다!"
+
+quest-item: BOOK
+quest-durability: 0
+
+quest-recommend: "&6&l[!] &6&l&oRecommended"
+quest-condition: "&e&l[!] &e&l&oConditions"
+quest-rewards: "&a&l[!] &a&l&oRewards"
+quest-read: "&7(SHIFT+LEFT) 자세히 보기, 숨기기 | &7(SHIFT+RIGHT) 퀘스트 포기"
+quest-give: "다음 퀘스트가 발주되었습니다 : "
+quest-complete: "&fQuset Complete!"
+quest-surrender: "퀘스트를 포기하셨습니다. :"
+
+event-take-item: "&b<entity>&f 아이템을 &b<amount>&f개 만큼 가져오기."
+
+event-hunt-withoutvar: "종류 상관없이 <amount> 마리의 몬스터를 처치하기."
+event-hunt-withvar: "<entity> 몬스터를 <amount> 마리 처치하기."
+event-chat-withoutvar: "내용 상관없이 <amount> 번 채팅 입력하기."
+event-chat-withvar: "채팅에 '<entity>'라고 <amount> 번 입력하기."
+event-complete-withoutvar: "아무 퀘스트나 <amount> 번 완수하기."
+event-complete-withvar: "'<entity>' 퀘스트를 <amount> 번 완수하기."
+event-custom-withoutvar: "커스텀 조건을 <amount> 번 완수하기"
+event-custom-withvar: "'<entity>' 커스텀 조건을 <amount> 번 완수하기."
+event-interactentity-withoutvar: "종류 상관없이 <amount> 번 대상과 상호작용하기."
+event-interactentity-withvar: "'<entity>'에게 <amount> 번 상호작용하기."
+event-break-withoutvar: "종류 상관없이 <amount> 번 블럭 파괴하기."
+event-break-withvar: "'<entity>' 블럭을 <amount> 번 파괴하기."

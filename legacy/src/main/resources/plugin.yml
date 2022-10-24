@@ -1,0 +1,11 @@
+name: Quest
+author: toxicity
+description: Quest Plugin
+main: kor.toxicity.quest.Quest
+version: 1.0
+depend: [Vault]
+commands:
+    quest:
+        description: Quest Plugin's commmand
+        usage: /<command>
+        aliases: [q, 퀘스트]

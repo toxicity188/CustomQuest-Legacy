@@ -1,0 +1,14 @@
+autosave: 300
+autosave-message: "&e&l[Quest] &f퀘스트 진행상황이 저장되었습니다."
+interact-delay: 30
+
+activate-navigation: true
+navigation-start: "&e&l[Quest] &f안내가 시작되었습니다. : "
+navigation-stop: "&e&l[Quest] &f안내가 중지되었습니다."
+navigation-compass-name: "&e&l[Quest] &f길 안내"
+navigation-override: false
+navigation-give: true
+
+dialog-tickspeed-default: 2
+
+default-typing-sound: block.stone_button.click_on 0.2 0.7

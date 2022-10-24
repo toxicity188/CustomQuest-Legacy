@@ -201,17 +201,15 @@ public class Quest extends JavaPlugin {
 					t.set("Vars." + s, playervars.get(player).getValue(s));
 				}
 			}
-			IntStream.range(0,getPlayerQuest(player).size()).forEach((int i) -> {
-				QuestSet q = getGlobalQuest(getPlayerQuest(player).get(i));
+			getPlayerQuest(player).forEach(z -> {
+				QuestSet q = getGlobalQuest(z);
 				if (q.getVars(player).getValueList().size() == 0) {t.set("Quests." + q.getKey(), "none");}
 				for (String s : q.getVars(player).getValueList().keySet()) {
 					t.set("Quests." + q.getKey() + "." + s, q.getVars(player).getValue(s));
 				}});
 			
 			if (stopping) {
-				for (int i = 0; i < getPlayerQuest(player).size(); i++) {
-					getGlobalQuest(getPlayerQuest(player).get(i)).stop(player);
-				}
+				getPlayerQuest(player).forEach(z -> getGlobalQuest(z).stop(player));
 				playervars.get(player).clear();
 				playervars.remove(player);
 				if (playerquest.containsKey(player)) playerquest.remove(player);

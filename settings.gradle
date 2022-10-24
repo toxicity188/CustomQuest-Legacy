@@ -1,2 +1,4 @@
 rootProject.name = 'CustomQuest-Legacy'
+include 'legacy'
+include 'core'
 
