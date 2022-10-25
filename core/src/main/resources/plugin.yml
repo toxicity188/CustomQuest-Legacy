@@ -4,6 +4,7 @@ description: Quest Plugin
 main: kor.toxicity.quest.Quest
 version: 1.0
 depend: [Vault]
+api-version: 1.16
 commands:
     quest:
         description: Quest Plugin's commmand
